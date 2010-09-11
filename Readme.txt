@@ -4,6 +4,7 @@ Use HttpClient to POST username/password to the server to sing in.
 Right now I just finished login Xiaonei.
 
 The main entry is in net/impjq/sns/SNS.java
+You can import it to eclipse.
 
 
 Contact me:pengjianqing@gmail.com
