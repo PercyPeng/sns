@@ -16,9 +16,9 @@ import org.apache.http.util.EntityUtils;
  */
 public class SNS {
 	public static final String tag = SNS.class.getSimpleName();
-	static String username = "pjq.vpn@gmail.com";
-	static String password = "271773661";
-	public static String status = "test1234";
+	static String username = "your email";
+	static String password = "yourpassword";
+	public static String status = "to be posted status";
 
 	/**
 	 * @param args

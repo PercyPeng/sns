@@ -102,16 +102,8 @@ public class XiaoneiController implements Controller {
 			Log.e(tag, "" + response.getStatusLine());
 			
 			if (HttpStatus.SC_MOVED_TEMPORARILY==response.getStatusLine().getStatusCode()) {
-				Header[] headers= response.getAllHeaders();
-				
-				for (Header header:headers){
-					Log.e(tag, ""+header);
-				}
-				
 				uri=response.getFirstHeader("Location").getValue();
 				Log.e(tag,"Location="+uri);
-				
-				
 			}		
 			Log.e(tag, "getUri=" + uri);
 
